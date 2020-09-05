@@ -1,66 +1,64 @@
 ========== ========== ==========
 
-  Readme.txt(�|�P�����}��)  ver.1.0
+  Readme.txt(ポケモン図鑑)  ver.1.0
 
 ========== ========== ==========
 
-�y �\�t�g�� �z�|�P�����}��
-�y �� �� �� �zOrikousan
-�y  ��  ��  �z�t���[�E�F�A
-�y �J���� �zAtom 1.25.1�Ȃ�
-�y ����� �zMacOS Mojave�Ȃ�
-�y�o�[�W�����z1.0
-�y�ŏI�X�V���z2020/08/03
-�y�����t�@�C���zreadme.txt, ,�������X�N���v�g.txt, model.php, index.php list.php, config/database.php, �|�P����/151�C���̃|�P������png�摜
+【 ソフト名 】ポケモン図鑑
+【 製 作 者 】Orikousan
+【  種  別  】フリーウェア
+【 開発環境 】Atom 1.25.1など
+【 動作環境 】MacOS Mojaveなど
+【バージョン】1.0
+【最終更新日】2020/08/03
+【同梱ファイル】readme.txt, ,初期化スクリプト.txt, model.php, index.php list.php, config/database.php, ポケモン/151匹分のポケモンのpng画像
+
 
 ---------- ----------
-�� �T�v ��
-	�����̓|�P�����}�ӂ��\�����邽�߂̃t�@�C���ł��B
+◇ 概要 ◇
+	これらはポケモン図鑑を構成するためのファイルです。
 
-�� ������� ��
+◇ 動作条件 ◇
 	XAMPP, manager-osx, mysql, Google Chrome
 
-�� �t�@�C���\�� ��
+◇ ファイル構成 ◇
 	[readme.txt]
-		���̃t�@�C���B
+		このファイル。
 
-	[�������X�N���v�g.txt]
-		�f�[�^�x�[�X�̏������ɕK�v�Ȃ��Ƃ������ꂽ�t�@�C���B
+	[初期化スクリプト.txt]
+		データベースの初期化に必要なことが書かれたファイル。
 
 	[model.php]
-		index.php�𓮂����̂ɕK�v�ȃt�@�C���B���̃t�@�C���𒼐ڃu���E�U�ŕ\�����邱�Ƃ͂���܂���B
+		index.phpを動かすのに必要なファイル。このファイルを直接ブラウザで表示することはありません。
 
 	[index.php]
-		index.php��Google Chrome�Ȃǂ̃u���E�U�ŗ����グ�Ă��������B��̓I�ɂ�URL��			localhost/index.php�ƋL�����ăG���^�[�L�[�������Ă��������B
-	
+		index.phpをGoogle Chromeなどのブラウザで立ち上げてください。具体的にはURLにlocalhost/index.phpと記入してエンターキーを押してください。
 
 	[syosai.php]
-		model.php�����ʑJ�ڂ���t�@�C���ł��B
+		model.phpから画面遷移するファイルです。
 
 	[database.php]
-		DB�̐ڑ����ɂ��ď����ꂽ�t�@�C���ł��Bmodel.php��index.php�����p���Ă��܂��Bconfig		�t�H���_�̒��ɂ���܂��B
+		DBの接続情報について書かれたファイルです。model.phpやindex.phpが利用しています。configフォルダの中にあります。
 
 	[love.php]
-		�f�[�^�x�[�X�̃|�P�����̂��C�ɓ���x���X�V���邽�߂̃t�@�C���ł��B
-�@
-	[151�C���̃|�P������png�摜]
-		�|�P�����t�H���_�̒���151����png�摜������܂��Blist.php�ŉ摜��\��������̂ɕK�v�ł��B(��@�A�[�{.png)
+		データベースのポケモンのお気に入り度を更新するためのファイルです。
+　
+	[151匹分のポケモンのpng画像]
+		ポケモンフォルダの中に151枚のpng画像があります。list.phpで画像を表示させるのに必要です。(例　アーボ.png)
 
 
 
-�� �C���X�g�[�� ��
-	����pokemon_dictionary�t�H���_�̒��g��htdocs�t�H���_�̐^���ɔz�u���Ă��������B
+◇ インストール ◇
+	このpokemon_dictionaryフォルダの中身をhtdocsフォルダの真下に配置してください。
 
-�� �A���C���X�g�[�� ��
-	�W�J���Ăł����t�H���_���܂邲�ƍ폜����΁A�A���C���X�g�[�������ł��B
+◇ アンインストール ◇
+	展開してできたフォルダをまるごと削除すれば、アンインストール完了です。
 
-�� �������� ��
-	pokemon_dictionary�̒��ɂ���t�@�C����t�H���_�����̂܂�htdoc�t�H���_�̐^���ɔz�u���Ă��������B��	�ɁA�������X�N���v�g.txt�ɏ]���ă^�[�~�i���Ń��[�U�̍쐬�A�f�[�^�x�[�X�̐݌v�Ȃǂ��s�Ȃ��Ă��������B��	���Ă����̍�Ƃ��I�������XAMPP���N������Coocle Chrome�Ȃǂ̃u���E�U��URL����
-	localhost/index.php�ƋL�����ăG���^�[�L�[�������Ă��������B
+◇ つかいかた ◇
+	pokemon_dictionaryの中にあるファイルやフォルダをそのままhtdocフォルダの真下に配置してください。次	に、初期化スクリプト.txtに従ってターミナルでユーザの作成、データベースの設計などを行なってくださ         い。そしてそれらの作業が終わったらXAMPPを起動してCoocle ChromeなどのブラウザのURL欄にlocalhost/index.phpと記入してエンターキーを押してください。
 
-�� �Ɛ� ��
-	���̃\�t�g���g�p���邱�Ƃɂ�蔭������
-	�����Ȃ鑹�Q�ɂ��Ă��A����҂͐ӔC�𕉂��܂���B
+◇ 免責 ◇
+	このソフトを使用することにより発生したいかなる損害についても、製作者は責任を負いません。
 
-�� ���� ��
-	09/08/02 ver1.0�����B
+◇ 履歴 ◇
+	09/08/02 ver1.0完成。
