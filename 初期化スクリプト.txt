@@ -5,6 +5,7 @@
 ■  データベースsampledb作成する
 データベースを初期化して作成するには、まずroot接続して以下のようなスクリプトを実行します。
 $ mysql -u root -p
+(/Applications/XAMPP/xamppfiles/bin/mysql -u root -p)
 
 ＊sampledbという名前のデータベースがMySQLサーバ内にあった場合
 MariaDB [(none)]> drop database sampledb;
@@ -23,6 +24,7 @@ MariaDB [(none)]> flush privileges;
 MariaDB [(none)]> \q
 
 $ mysql -u trainer -p
+(/Applications/XAMPP/xamppfiles/bin/mysql -u trainer -p)
 
 ＊ユーザtrainerで接続するときのパスワードはredgreenです。
 Enter password:redgreen
