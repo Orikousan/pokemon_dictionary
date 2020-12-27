@@ -55,7 +55,7 @@
 	展開してできたフォルダをまるごと削除すれば、アンインストール完了です。
 
 ◇ つかいかた ◇
-	pokemon_dictionaryの中にあるファイルやフォルダをそのままhtdocフォルダの真下に配置してください。次に、初期化スクリプト.txtに従ってターミナルでユーザの作成、データベースの設計などを行なってくださ         い。そしてそれらの作業が終わったらXAMPP(manager-osx)のMySQL DatabseとApache Web Serverを起動してCoocle ChromeなどのブラウザのURL欄にlocalhost/index.phpと記入してエンターキーを押してください。
+	pokemon_dictionary-masterの中にあるファイルやフォルダをそのままhtdocフォルダの真下に配置してください。次に、初期化スクリプト.txtに従ってターミナルでユーザの作成、データベースの設計などを行なってください。そしてそれらの作業が終わったらXAMPP(manager-osx)のMySQL DatabseとApache Web Serverを起動してCoocle ChromeなどのブラウザのURL欄にlocalhost/index.phpと記入してエンターキーを押してください。
 
 ◇ 免責 ◇
 	このソフトを使用することにより発生したいかなる損害についても、製作者は責任を負いません。
